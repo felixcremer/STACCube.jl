@@ -3,11 +3,21 @@ uuid = "285b90eb-66e7-49f7-b676-58f042805622"
 authors = ["Felix Cremer <fcr"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+STAC = "08e62803-e111-4f53-be9b-274ff296e9da"
+YAXArrayBase = "90b8fcef-0c2d-428d-9c56-5f86629e9d14"
+YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
+Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
 
 [compat]
 julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
